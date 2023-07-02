@@ -1,0 +1,48 @@
+---
+title: Green Bean Casserole Recipe
+---
+
+<h2>Ingredients:</h2>
+<ol>
+    {% for item in green_bean_casserole_instructions.ingredients %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ol>
+<h2>Procedure</h2>
+<div style="width: 100%;">
+    <table style="width: 90%; margin: auto;">
+        <tr>
+            <th>Step #</th>
+            <th>Description</th>
+            <th>Expected</th>
+            <th>Measured</th>
+            <th>Sign-Off</th>
+        </tr>
+        {% for item in green_bean_casserole_instructions.procedure %}
+        <tr style="height: 100px;">
+            <td style="width: 5%;">
+                <p>{{item.Step}}</p>
+            </td>
+            <td style="width: 60%;">{{item.Instruction}}</td>
+            <td style="width: 10%;">
+                {% if (item.Expected!=null) %}
+                <p>{{item.Expected}}</p>
+                {% endif %}
+            </td>
+            <td style="width: 10%;">
+                {% if (item.Expected!=null) %}
+                <label for="{{item.step}}-{{item.Expected}}"></label>
+                <input id="{{item.step}}-{{item.Expected}}" type="text">
+                {% endif %}
+            </td>
+            <td style="width: 15%;">
+                <div class="flex-container">
+                    <label for="{{item.Step}}"></label>
+                    <input id="{{item.Step}}" type="checkbox" class="regular-checkbox">
+                    <div></div>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

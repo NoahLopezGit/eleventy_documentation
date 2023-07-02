@@ -1,0 +1,9 @@
+---
+layout: base
+---
+{% for procedure in collections.procedures %}
+<h1 class="collapsible">{{procedure.data.title}}</h1>
+<div>
+    {{procedure.content | safe}}
+</div>
+{% endfor %}

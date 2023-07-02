@@ -1,0 +1,70 @@
+{
+    "ingredients":[
+        "1 pound of ground beef (or other protein of choice, e.g., ground turkey, tofu)",
+        "1 large onion, diced",
+        "2 cloves of garlic, minced",
+        "1 bell pepper, diced",
+        "1 can of kidney beans, drained and rinsed",
+        "1 can of diced tomatoes",
+        "2 tablespoons of chili powder",
+        "1 teaspoon of cumin",
+        "1 teaspoon of oregano",
+        "1/2 teaspoon of salt",
+        "1/4 teaspoon of black pepper",
+        "1 cup of beef broth (or vegetable broth for a vegetarian option)",
+        "Olive oil",
+        "Optional toppings: shredded cheese, sour cream, chopped green onions"
+    ],
+    "procedure":[
+        {
+            "Step": "Step 1",
+            "Instruction": "Prepare your ingredients: Dice the onion and bell pepper, mince the garlic, and rinse the kidney beans.",
+            "Expected": "1 Cup Beans"
+        },
+        {
+            "Step": "Step 2",
+            "Instruction": "Heat the oil: In a large pot or Dutch oven, heat a tablespoon of olive oil over medium heat.",
+            "Expected": "2 tsp Olive Oil"
+        },
+        {
+            "Step": "Step 3",
+            "Instruction": "Cook the onions and bell pepper: Add the diced onion and bell pepper to the pot. Sauté until the onion becomes translucent, about 5 minutes.",
+            "Expected": null
+        },
+        {
+            "Step": "Step 4",
+            "Instruction": "Add garlic and ground beef: Add the minced garlic and ground beef to the pot. Break up the beef with a spoon and cook until no pink remains, about 7-10 minutes.",
+            "Expected": null
+        },
+        {
+            "Step": "Step 5",
+            "Instruction": "Add spices: Sprinkle the chili powder, cumin, oregano, salt, and black pepper over the cooked beef. Stir well to coat the meat in the spices.",
+            "Expected": null
+        },
+        {
+            "Step": "Step 6",
+            "Instruction": "Add tomatoes and broth: Pour the diced tomatoes (with their juice) and beef broth into the pot. Stir well.",
+            "Expected": null
+        },
+        {
+            "Step": "Step 7",
+            "Instruction": "Simmer: Lower the heat to medium-low and let your chili simmer. Cover the pot and let it cook for about 30 minutes, stirring occasionally.",
+            "Expected": null
+        },
+        {
+            "Step": "Step 8",
+            "Instruction": "Add beans: After the chili has been simmering for 30 minutes, stir in the kidney beans.",
+            "Expected": "30 Min Cook Time"
+        },
+        {
+            "Step": "Step 9",
+            "Instruction": "Cook a little longer: Continue to let the chili simmer for another 15 minutes. This will help the flavors meld together and the beans to warm up.",
+            "Expected": "15 Min Cook Time"
+        },
+        {
+            "Step": "Step 10",
+            "Instruction": "Serve and enjoy: Once the chili is done cooking, ladle it into bowls and serve with your favorite toppings like shredded cheese, sour cream, or chopped green onions.",
+            "Expected": null
+        }
+    ]
+}
