@@ -27,7 +27,6 @@ C:.
 ```
 #setup
 To generate the static 'procedures_compiled.html' webpage.\
-\
 ```
 git init https://github.com/NoahLopezGit/eleventy_documentation.git
 ```
