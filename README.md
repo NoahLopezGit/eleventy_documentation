@@ -1,4 +1,4 @@
-# eleventy_documentation
+# Documentation (standards, plans, procedures, etc) with Eleventy
 Creating documentation and procedures with intractability and modularity with Eleventy.\
 \
 Creating documentation for testing plans and procedures can become complex when many documents are involved. Creating test plans and procedures using office products (word, excel) often have limitations on customizability and functionality. Tracking and updating changes for documentation can become complicated, especially if things are referenced in many places. Creating documentation (standards, plans, procedures, etc) in a web based format can offer more modularity of references, customizability (more freedom in how the document looks), and functionality.\
